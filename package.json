@@ -17,7 +17,6 @@
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "tsc -p tsconfig.json",
-    "postbuild": "cd sample && npm install $(npm pack ../ | tail -1)",
     "update": "npx npm-check-updates -u && cd sample && npx npm-check-updates -u",
     "format": "prettier --write \"lib/**/*.ts\" \"test/**/*.ts\"",
     "lint": "eslint \"{lib,apps,libs,test}/**/*.ts\" --fix",

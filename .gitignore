@@ -16,5 +16,4 @@ npm-debug.log
 /.nyc_output
 
 # source
-dist
 *.tgz
